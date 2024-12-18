@@ -18,20 +18,17 @@ public class Test {
 		PasswordTextfield.sendKeys("SuperSecretPassword!");
 		WebElement LoginButton = driver.findElement(By.xpath("//*[@id='login']/button/i"));
 		LoginButton.click();
-        WebElement Confirmationele = driver.findElement(By.xpath("//*[@id='flash']"));
-        String confirmationmsg = Confirmationele.getText();
-        
-        if (confirmationmsg.contains("You logged into a secure area!")) {
-        	System.out.println("Login in successful");
-        }
-        
-        else {
-        	System.out.println("Login in failed");
-        }
-        
-        driver.quit();
-        }
+		WebElement Confirmationele = driver.findElement(By.xpath("//*[@id='flash']"));
+		String confirmationmsg = Confirmationele.getText();
+
+		if (confirmationmsg.contains("You logged into a secure area!")) {
+			System.out.println("Login in successful");
+		}
+
+		else {
+			System.out.println("Login in failed");
+		}
+
+		driver.quit();
 	}
-
-
-
+}
