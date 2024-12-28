@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngtest.Forgotpasswordtest">
+      <class name="dropdowntest.DropDownTest">
         <methods>
-          <include name="start"/>
-          <include name="forgotpassword"/>
-          <include name="teardown"/>
-          <include name="forgotpasswordexe"/>
+          <include name="dropdowncheck"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
         </methods>
-      </class> <!-- testngtest.Forgotpasswordtest -->
+      </class> <!-- dropdowntest.DropDownTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
