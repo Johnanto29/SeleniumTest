@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-23T20:15:55 GMT-05:00" name="Default suite" finished-at="2024-12-23T20:16:23 GMT-05:00" duration-ms="28219">
+  <suite started-at="2024-12-30T20:00:29 GMT-05:00" name="Default suite" finished-at="2024-12-30T20:00:49 GMT-05:00" duration-ms="19518">
     <groups>
     </groups>
-    <test started-at="2024-12-23T20:15:55 GMT-05:00" name="Default test" finished-at="2024-12-23T20:16:23 GMT-05:00" duration-ms="28219">
-      <class name="dropdowntest.DropDownTest">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:dropdowntest.DropDownTest@9635fa]" started-at="2024-12-23T20:15:56 GMT-05:00" name="OpenBrowser" finished-at="2024-12-23T20:16:07 GMT-05:00" duration-ms="11726" status="PASS">
+    <test started-at="2024-12-30T20:00:29 GMT-05:00" name="Default test" finished-at="2024-12-30T20:00:49 GMT-05:00" duration-ms="19518">
+      <class name="xpathtest.Xpathtest">
+        <test-method signature="xpathtestcase()[pri:0, instance:xpathtest.Xpathtest@765d7657]" started-at="2024-12-30T20:00:30 GMT-05:00" name="xpathtestcase" finished-at="2024-12-30T20:00:49 GMT-05:00" duration-ms="19379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="dropdowncheck()[pri:0, instance:dropdowntest.DropDownTest@9635fa]" started-at="2024-12-23T20:16:07 GMT-05:00" name="dropdowncheck" finished-at="2024-12-23T20:16:21 GMT-05:00" duration-ms="13884" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdowncheck -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:dropdowntest.DropDownTest@9635fa]" started-at="2024-12-23T20:16:21 GMT-05:00" name="CloseBrowser" finished-at="2024-12-23T20:16:23 GMT-05:00" duration-ms="2155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- dropdowntest.DropDownTest -->
+        </test-method> <!-- xpathtestcase -->
+      </class> <!-- xpathtest.Xpathtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
